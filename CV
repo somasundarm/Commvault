@@ -8,8 +8,8 @@ import getpass
 
 url = "http://ec2amaz-nib1gef/webconsole/api/Login"
 
-username = input("Enter the username::")
-Password = getpass.getpass (prompt='Enter the Password::')
+username = input("cvadmin")
+Password = getpass.getpass (prompt='Cv@dmin12')
 
 
 message_bytes = Password.encode('ascii')
